@@ -21,7 +21,7 @@ Criar um **dashboard web interativo** capaz de:
 
 * **React.js** — construção da interface
 * **JavaScript ES6+** — manipulação de estados e dados
-* **CSS / Tailwind / estilização própria** (dependendo do caso)
+* **CSS
 * **Mock API local** com dados JSON simulados
 
 ---
