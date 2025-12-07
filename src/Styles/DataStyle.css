@@ -1,0 +1,187 @@
+#comp {
+    display: grid;
+    width: 100%;
+    gap: 15px;
+
+    grid-template-columns: repeat(5);
+
+    justify-content: center;
+    align-content: start;
+
+    padding: 10px 0;
+    animation: fadeInAnim 0.4s ease forwards;
+    text-align: center;
+}
+
+/* Formatação dos dados */
+.tituloData {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.valorDado {
+    color: rgb(0, 255, 0);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*Cardds para edição de maneira reduzida */
+
+#vacuoAdmissao,
+#pressaoEntrada,
+#pressaoSaidaFiltro,
+#pressaoDescargaAfterCooler,
+#quedaPressao,
+#temperaturaLiquidoArrefecimento,
+#temperaturaUnidadeParafuso,
+#temperaturaDescargaAftercooler,
+#tempoDeResfriamento,
+#horasRodando,
+#voltagemDoInput,
+#kWh,
+#encomendaKw,
+#voltagemDcBus,
+#porcentagemDeCapacidade {
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 90px;
+    max-height: 110px;
+    justify-self: center;
+    padding: 5px;
+    animation: fadeInAnim 0.4s ease forwards;
+}
+
+/* Posições na grid*/
+
+#vacuoAdmissao {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#pressaoEntrada {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#pressaoSaidaFiltro {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#pressaoDescargaAfterCooler {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#quedaPressao {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#temperaturaLiquidoArrefecimento {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#temperaturaUnidadeParafuso {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#temperaturaDescargaAftercooler {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#tempoDeResfriamento {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#horasRodando {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#voltagemDoInput {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#kWh {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#encomendaKw {
+    grid-column: 5;
+    grid-row: 3;
+}
+
+#voltagemDcBus {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+#porcentagemDeCapacidade {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+#gaugeSumpress,
+#gaugeVoltagemMotor,
+#gaugePressãoDescargaConjunto {
+    min-width: 130px;
+    max-width: 150px;
+    justify-self: center;
+    align-self: center;
+    animation: fadeInAnim 0.4s ease forwards;
+}
+
+#gaugeVelocidadeMotor {
+    min-width: 130px;
+    max-width: 150px;
+      justify-self: center;
+    align-self: center;
+}
+
+
+#gaugeMotorCurrent {
+    min-width: 130px;
+    max-width: 150px;
+     justify-self: center;
+    align-self: center;
+
+}
+
+#gaugeVoltagemMotor {}
+
+
+#gaugeMotorCurrent {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#gaugeSumpress {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#gaugeVelocidadeMotor {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#gaugePressãoDescargaConjunto {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#gaugeVoltagemMotor {
+    grid-column: 5;
+    grid-row: 4;
+}
