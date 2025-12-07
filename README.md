@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Monitoramento de Compressores — Dashboard Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto nasceu a partir de um **problema real enfrentado por uma empresa**, que precisava monitorar em tempo real diversos **parâmetros críticos de compressores industriais** através de uma aplicação web.
 
-## Available Scripts
+O sistema original consumia dados diretamente de uma **API interna da empresa**, mas para transformar este trabalho em um **projeto de portfólio seguro**, todos os dados sensíveis foram removidos e substituídos por **valores sintéticos e simulados**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Objetivo do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Criar um **dashboard web interativo** capaz de:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Visualizar dados operacionais de vários compressores
+* Exibir pressões, temperaturas, tensões e consumo energético
+* Acompanhar status e desempenho em tempo quase real
+* Facilitar a identificação de anomalias ou quedas de performance
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧩 Tecnologias Utilizadas
 
-### `npm run build`
+* **React.js** — construção da interface
+* **JavaScript ES6+** — manipulação de estados e dados
+* **CSS / Tailwind / estilização própria** (dependendo do caso)
+* **Mock API local** com dados JSON simulados
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏗 Estrutura dos Dados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Os dados simulados seguem o mesmo padrão estrutural dos dados reais da empresa, garantindo fidelidade no comportamento das telas.
 
-### `npm run eject`
+Exemplo de registro:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```json
+{
+  "1": {
+    "id_compressor": 1,
+    "packageDischargePressure": 6.3,
+    "sumpPress": 7.8,
+    "inletVacuum": 0.04,
+    "coolantFilterInPressure": 5.1,
+    "coolantFilterOutPressure": 4.9,
+    "afterCoolerDischargePressure": 5.7,
+    "separatorPressure": 6.0,
+    "coolantFilterPressureDrop": 0.2,
+    "injectedCoolantTemp": 62,
+    "airendTemp": 89,
+    "afterCoolerDischargeTemp": 42,
+    "inletTemp": 27,
+    "coolerOutTemp": 31,
+    "percentCapacity": 78,
+    "motorSpeed": 4450,
+    "motorCurrent": 86,
+    "dcBusVoltage": 540,
+    "motorVoltage": 387,
+    "packageKW": 45.6,
+    "kWh": 184,
+    "inputVoltage": 398,
+    "runningHours": 4231,
+    "afterCoolerDischargePress": 23
+  }
+}
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📊 Funcionalidades Implementadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Seleção individual de compressores
+* Exibição dinâmica dos dados do equipamento selecionado
+* Componentes visuais para facilitar leitura (cards, gauges, tabelas)
+* Atualização simulada dos dados
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Objetivo como Portfólio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O foco deste projeto é demonstrar:
 
-### Code Splitting
+* Organização de dados complexos
+* Integração com APIs (na versão original, interna da empresa)
+* Construção de interfaces limpas e funcionais
+* Domínio com React, estados, renderização condicional e lógica de frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Esse projeto mostra a capacidade de **transformar um cenário industrial real** em uma solução completa para apresentação profissional.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 Como Executar
 
-### Making a Progressive Web App
+1. Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+2. Execute o servidor de desenvolvimento:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+3. Acesse:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+http://localhost:3000
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📘 Observações Importantes
+
+* Nenhuma informação real da empresa foi utilizada.
+* A API foi totalmente substituída por dados estáticos e simulados.
+* A estrutura e o fluxo continuam fieis à aplicação real, preservando a relevância técnica do projeto.
+
+---
+
+## 📩 Contato
+
+Caso queira sugestões de melhoria, expansão ou integração com backend real, posso ajudar!
