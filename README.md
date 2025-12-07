@@ -6,7 +6,7 @@ O sistema original consumia dados diretamente de uma **API interna da empresa**,
 
 ---
 
-## 🚀 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Criar um **dashboard web interativo** capaz de:
 
@@ -17,7 +17,7 @@ Criar um **dashboard web interativo** capaz de:
 
 ---
 
-## 🧩 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **React.js** — construção da interface
 * **JavaScript ES6+** — manipulação de estados e dados
@@ -26,7 +26,7 @@ Criar um **dashboard web interativo** capaz de:
 
 ---
 
-## 🏗 Estrutura dos Dados
+##  Estrutura dos Dados
 
 Os dados simulados seguem o mesmo padrão estrutural dos dados reais da empresa, garantindo fidelidade no comportamento das telas.
 
@@ -65,7 +65,7 @@ Exemplo de registro:
 
 ---
 
-## 📊 Funcionalidades Implementadas
+##  Funcionalidades Implementadas
 
 * Seleção individual de compressores
 * Exibição dinâmica dos dados do equipamento selecionado
@@ -74,7 +74,7 @@ Exemplo de registro:
 
 ---
 
-## 🎯 Objetivo como Portfólio
+##  Objetivo como Portfólio
 
 O foco deste projeto é demonstrar:
 
@@ -87,7 +87,7 @@ Esse projeto mostra a capacidade de **transformar um cenário industrial real** 
 
 ---
 
-## 📦 Como Executar
+##  Como Executar
 
 1. Instale as dependências:
 
@@ -109,7 +109,7 @@ http://localhost:3000
 
 ---
 
-## 📘 Observações Importantes
+##  Observações Importantes
 
 * Nenhuma informação real da empresa foi utilizada.
 * A API foi totalmente substituída por dados estáticos e simulados.
@@ -117,6 +117,3 @@ http://localhost:3000
 
 ---
 
-## 📩 Contato
-
-Caso queira sugestões de melhoria, expansão ou integração com backend real, posso ajudar!
